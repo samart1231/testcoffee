@@ -1,0 +1,3 @@
+Latte (Large, Milk, Sugar),5.00
+Croissant,2.50
+Total,7.50

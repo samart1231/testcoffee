@@ -1,0 +1,3 @@
+C:/Users/samar/CLionProjects/untitled17/cmake-build-debug/CMakeFiles/CoffeeMachine.dir
+C:/Users/samar/CLionProjects/untitled17/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/samar/CLionProjects/untitled17/cmake-build-debug/CMakeFiles/rebuild_cache.dir
