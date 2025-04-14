@@ -1,27 +1,27 @@
 #ifndef COFFEE_MACHINE_H
 #define COFFEE_MACHINE_H
 
-#include <vector>
 #include <string>
-#include <utility>
+#include <vector>
 
 class CoffeeMachine {
 private:
     std::vector<std::pair<std::string, double>> cart;
 
-    static void showMenu();
+    void showMainMenu();
+    void showHotMenu();
+    void showColdMenu();
     void showBreadMenu();
-    void addItemToCart(const std::string &item, double price);
-    void writeCartToFile(const std::string &filename, double totalCost);
-    void generatePaymentQR();
-
-    void handleCoffeeSelection(const std::string &coffee, double basePrice);
-    void handleBreadSelection();
+    void showCart();
     void checkout();
 
-public:
-    void handleCoffeeSelection();
+    void handleHotSelection();
+    void handleColdSelection();  // ประกาศฟังก์ชัน handleColdSelection
+    void handleBreadSelection(); // ประกาศฟังก์ชัน handleBreadSelection
 
+    void addItemToCart(const std::string& item, double price);
+
+public:
     void run();
 };
 

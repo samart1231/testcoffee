@@ -1,12 +1,11 @@
 cmake_minimum_required(VERSION 3.20)
 project(CoffeeMachine)
 
-# C++ Standard
+# Set C++ Standard
 set(CMAKE_CXX_STANDARD 17)
 
-# Add source files
+# Add the executable
 add_executable(CoffeeMachine
-        src/main.cpp
-        src/coffee_machine.cpp
-        src/coffee_machine.h
+        main.cpp
+        coffee_machine.cpp
 )
