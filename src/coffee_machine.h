@@ -20,6 +20,8 @@ private:
     void checkout();
 
 public:
+    void handleCoffeeSelection();
+
     void run();
 };
 
